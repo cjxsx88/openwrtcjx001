@@ -24,7 +24,7 @@
 #sed '/feeds-name/'d feeds.conf.default
 #echo 'method feed-name path/URL' >> feeds.conf.default
 # # Uncomment a feed source:
-#sed -i 's/^#\(.*feed-name\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*feed-name\)/\1/' feeds.conf.default
 # # Replace src-git-full with src-git to reduce the depth of cloning:
 #sed -i 's/src-git-full/src-git/g' feeds.conf.default
 #
